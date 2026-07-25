@@ -17,6 +17,8 @@ if mapasGenericShooter[mapaAtual] then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/VNEcdm/VNESKG-Hub/refs/heads/main/GenericShooter"))()
 elseif mapasGoodShooter[mapaAtual] then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/VNEcdm/VNESKG-Hub/refs/heads/main/GoodShooter"))()
+elseif mapaAtual == 155615604 then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/VNEcdm/VNESKG-Hub/refs/heads/main/PrisonLife"))()
 else
 	game.Players.LocalPlayer:Kick("Mapa Não Reconhecido")
 end
