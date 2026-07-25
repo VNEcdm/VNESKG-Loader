@@ -5,7 +5,6 @@ local mapasGenericShooter = {
 }
 
 local mapasGoodShooter = {
-	[155615604] = true,
 	[102871156420149] = true,
 	[14518422161] = true,
     [135648408848758] = true
